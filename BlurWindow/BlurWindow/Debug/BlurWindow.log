@@ -1,0 +1,35 @@
+﻿生成启动时间为 2021/7/10 15:32:43。
+     1>项目“E:\source\soui-master\BlurWindow\BlurWindow\BlurWindow.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Building SoUI Resource
+         "E:\source\soui-master\tools\uiresbuilder.exe"  -i "E:\source\soui-master\BlurWindow\BlurWindow\uires\uires.idx" -p uires -r .\res\soui_res.rc2 -h .\res\resource.h idtable
+         build .\res\soui_res.rc2 succeed!
+         .\res\resource.h not need to update
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\source\soui-master\config" /I"E:\source\soui-master\components" /I"E:\source\soui-master\SOUI\include" /I"E:\source\soui-master\utilities\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\BlurWindow.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\source\soui-master\config" /I"E:\source\soui-master\components" /I"E:\source\soui-master\SOUI\include" /I"E:\source\soui-master\utilities\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\BlurWindow.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt BlurWindow.cpp MainDlg.cpp trayicon\SShellNofityHwnd2.cpp trayicon\SShellNotifyIcon.cpp
+         SShellNotifyIcon.cpp
+     1>e:\source\soui-master\blurwindow\blurwindow\trayicon\sshellnotifyicon.cpp(100): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\source\soui-master\blurwindow\blurwindow\trayicon\sshellnotifyicon.cpp(114): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\source\soui-master\blurwindow\blurwindow\trayicon\sshellnotifyicon.cpp(194): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\source\soui-master\blurwindow\blurwindow\trayicon\sshellnotifyicon.cpp(196): warning C4018: “>=”: 有符号/无符号不匹配
+         SShellNofityHwnd2.cpp
+         MainDlg.cpp
+         BlurWindow.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _DEBUG /D _UNICODE /D UNICODE /l"0x0804" /I"E:\source\soui-master\soui-sys-resource" /nologo /fo"Debug\BlurWindow.res" BlurWindow.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\source\soui-master\BlurWindow\Debug\BlurWindow.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\source\soui-master\bin" utilitiesd.lib soui3d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\source\soui-master\BlurWindow\Debug\BlurWindow.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\source\soui-master\BlurWindow\Debug\BlurWindow.lib" /MACHINE:X86 Debug\BlurWindow.res
+         Debug\BlurWindow.obj
+         Debug\MainDlg.obj
+         Debug\stdafx.obj
+         Debug\SShellNofityHwnd2.obj
+         Debug\SShellNotifyIcon.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“utilitiesd.lib”
+     1>已完成生成项目“E:\source\soui-master\BlurWindow\BlurWindow\BlurWindow.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.34
